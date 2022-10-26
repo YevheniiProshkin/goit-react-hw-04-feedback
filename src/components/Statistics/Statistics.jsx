@@ -22,7 +22,7 @@ export const Statistics = ({
       </StatisticList>
       <CountStatisticWrapper>
         <p>Total: {total()}</p>
-        <p>Positive feedback: {positivePercentage()}</p>
+        <p>Positive feedback: {positivePercentage()}%</p>
       </CountStatisticWrapper>
     </div>
   );
